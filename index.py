@@ -38,4 +38,4 @@ with open(f'/workspace/jejucr/{date.year}_{date.month}_{date.day}_{date.hour}_{d
     result = ''
     for i in 사업정리:
         result += f'{i.기관}, {i.name}, {i.date}\n'
-    f.write(result
+    f.write(result)
